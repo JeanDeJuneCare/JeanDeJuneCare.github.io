@@ -1,6 +1,7 @@
 (function () {
     'use strict';
 
+    
     const filename = "popup.html";
     const folder = "lido2paris";
     const buttonQuery = '';
