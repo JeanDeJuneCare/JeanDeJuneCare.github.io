@@ -93,8 +93,8 @@ function createStripeCheckoutSession(items) {
 
     formBody.append('payment_method_types[]', 'card');
     formBody.append('mode', 'payment');
-    formBody.append('success_url', 'https://junecare-assurance.github.io/orderPlaced.html');
-    formBody.append('cancel_url', 'https://junecare-assurance.github.io/cart.html');
+    formBody.append('success_url', 'https://JeanDeJuneCare.github.io/orderPlaced.html');
+    formBody.append('cancel_url', 'https://JeanDeJuneCare.github.io/cart.html');
     formBody.append('payment_intent_data[description]', 'Paiement ShopLane');
     formBody.append('payment_intent_data[statement_descriptor]', 'ShopLane');
 
